@@ -80,6 +80,6 @@ void main() {
   print('---------------------');
 
   String? name = 'vishnu';
-  var Length = name.length ?? "data is null"; //expression1 ?? expression2
+  var Length = name?.length ?? "data is null"; //expression1 ?? expression2
   print(Length);
 }
