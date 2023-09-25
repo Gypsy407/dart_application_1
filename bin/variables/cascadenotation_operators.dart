@@ -12,7 +12,7 @@ class A {
   }
 }
 
-/// cascadenotation operator ..
+/// cascade notation operator ..
 
 void main() {
   A obj = A();
