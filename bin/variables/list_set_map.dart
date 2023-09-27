@@ -87,4 +87,30 @@ void main() {
   print(set1.intersection(set2));
 
   print(set2.difference(set1)); //values present in set2 and not in set1
+  print('-------------------');
+
+  // map - store store values as key values pairs key must be unique values can be same or different
+
+  var map = {'name': 'vishnu', 'age': 24, 'cgpa': 9.2, 'phno': 789456123};
+  Map<int, int> map1 = {1: 10, 2: 20, 3: 35, 4: 23};
+  Map<int, dynamic> map2 = {1: 'gdh', 2: 35, 3: 'jhgd', 4: 'jdh'};
+
+  map.addAll({'email': 'vishnu@gmail.com'});
+  map['pincode'] = 65845;
+  map['age'] = 32;
+
+  map.forEach((key, value) {
+    print('$key :$value');
+  });
+
+  print('-------------------');
+
+  print(map.containsKey('name'));
+  print(map.containsValue(32));
+
+  print('-------------------');
+
+  print(map);
+  print(map1);
+  print(map2);
 }
