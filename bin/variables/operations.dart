@@ -9,7 +9,7 @@ void main() {
   print('$a/$b = ${a / b}');
   print('$a%$b = ${a % b}');
   print('$a/$b = ${a ~/ b}');
-  print('---------------------');
+  print(' ');
 
   //aasignment operator = =+ -= *=  /= %= ~/=
   print('aasignment operator = =+ -= *=  /= %= ~/=');
@@ -22,8 +22,7 @@ void main() {
   print('x %= y -> ${x %= y}'); //x = x%y = 81%9 = 0
   print('x /= y -> ${x /= y}'); //x = x/y = 0/9 = 0.0
   print('x ~/= y -> ${x ~/= y}'); //x = x~/y = 0/9 = 0
-  print('---------------------');
-
+  print(' ');
   // relational operator > < >= <= == !=
 
   print('relational operator > < >= <= == !=');
@@ -35,7 +34,7 @@ void main() {
   print('i <= j -> ${i <= j}');
   print('i == j -> ${i == j}');
   print('i != j -> ${i != j}');
-  print('---------------------');
+  print(' ');
 
   // Logical opertaor && || !
 
@@ -49,7 +48,7 @@ void main() {
       otp == 123); // OR operation -- false || true -> true
   print(!(username == 'Admin' &&
       password == 'abc@123')); // NOT operation here false -> true
-  print('-------------------');
+  print(' ');
 
   // type test operator - is is!
 
@@ -59,7 +58,7 @@ void main() {
   print(k is int);
   print(k is! String);
 
-  print('-------------------');
+  print(' ');
   // bitwise operator & | ^(xor) - to perform operations on binary values
   // shift operator >> (right shift)  << (left operator)
 
@@ -71,13 +70,13 @@ void main() {
       ? 'Welcome User'
       : 'Incorrect username or password';
   print(result);
-  print('-------------------');
+  print(' ');
 
   String? data;
   var out = data?.length ?? "data is null"; //expression1 ?? expression2
   print(out);
 
-  print('---------------------');
+  print(' ');
 
   String? name = 'vishnu';
   var Length = name?.length ?? "data is null"; //expression1 ?? expression2

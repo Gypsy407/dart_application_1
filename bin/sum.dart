@@ -8,5 +8,5 @@ void main() {
   var n1 = int.parse(a!);
   var n2 = int.parse(b!);
 
-  print("SUM of $a+$b = ${n1 + n2}");
+  print("Sum of $a+$b = ${n1 + n2}");
 }

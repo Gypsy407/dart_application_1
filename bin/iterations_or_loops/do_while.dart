@@ -3,5 +3,5 @@ void main() {
   do {
     print(i);
     i--;
-  } while (i <= 10 && i > 0);
+  } while (i > 0);
 }
