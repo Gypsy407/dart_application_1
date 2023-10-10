@@ -6,6 +6,7 @@ void main() {
   // const String name1 = 'vishnu'; // compile time value
   final person = Person('vishnu', 25);
   print(person.name);
+  print(person.age);
 }
 
 class Person {

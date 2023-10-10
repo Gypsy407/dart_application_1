@@ -49,9 +49,9 @@ class A {
 }
 
 void main() {
-  A obj1 = A();
-  A obj2 = A.name1();
-  A obj3 = A.name2(1, 2);
+  // A obj1 = A();
+  // A obj2 = A.name1();
+  // A obj3 = A.name2(1, 2);
   A.a1(name: 'Vishnu', age: 23, course: 'flutter', year: 2023);
   A.a1(name: 'Vinay', age: 23, course: 'flutter');
 }
