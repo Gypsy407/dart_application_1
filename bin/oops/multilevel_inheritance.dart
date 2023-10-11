@@ -1,17 +1,35 @@
-class GrandFather {
-  String name = 'Paul';
+// class GrandFather {
+//   String name = 'Paul';
+// }
+
+// class Father extends GrandFather {
+//   String fname = 'Joseph';
+// }
+
+// class Son extends Father {
+//   String sname = 'Alan';
+// }
+
+// void main() {
+//   Son obj = Son();
+
+//   print('My name is ${obj.name} ${obj.fname} ${obj.sname}');
+// }
+
+class Bank {
+  String name = 'SBI';
 }
 
-class Father extends GrandFather {
-  String fname = 'Joseph';
+class Branch extends Bank {
+  String bname = 'Kakkanad';
 }
 
-class Son extends Father {
-  String sname = 'Alan';
+class Account extends Branch {
+  String aname = 'Vishnu';
 }
 
 void main() {
-  Son obj = Son();
+  Account obj = Account();
 
-  print('My name is ${obj.name} ${obj.fname} ${obj.sname}');
+  print(' ${obj.aname} have an Account in ${obj.name} ${obj.bname} Branch');
 }
