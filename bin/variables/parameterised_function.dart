@@ -12,7 +12,7 @@ void fucn(int a, int b) {
 
 //optional positional
 //parameters inside [] is positional
-//optional param shoud  created using ?
+//optional param should  created using ?
 //when we pass values to optional params we must follow the order
 //we can'i skip the values
 //eg : if we nee value of 'a' not 's' and 'i' we can't writelike this

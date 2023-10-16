@@ -1,4 +1,4 @@
-//used when the instance variables and function argumentshave same name
+//used when the instance variables and function arguments have same name
 
 class Demo {
   //instance variables
