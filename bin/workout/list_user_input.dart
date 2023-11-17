@@ -18,8 +18,6 @@ void main() {
 
   print(' ');
 
-  print('Sorted element list is :');
-
   for (i = 0; i < list.length; i++) {
     for (j = i + 1; j < list.length; j++) {
       if (list[i] > list[j]) {
@@ -30,5 +28,5 @@ void main() {
     }
   }
 
-  stdout.write('$list');
+  print('Sorted element list is : $list');
 }
